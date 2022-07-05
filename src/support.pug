@@ -1,0 +1,21 @@
+include compontents/vars
+
+doctype html
+html(lang="en")
+  head
+    include compontents/inhead
+    title Document
+  body 
+    include compontents/header
+    main 
+      section 
+        h1 support us please 
+        p(dir="rtl" lang="ar") ادعمنا لكى نستمر فى انتاج المحتوى
+
+      section
+        h1(dir='rtl' lang="ar") المنتجات
+        h3(lang="ar")  #{price}
+        button Buy
+  
+
+    include compontents/footer
